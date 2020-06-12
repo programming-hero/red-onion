@@ -1,0 +1,41 @@
+.detailStyle{
+    margin-top: 100px;
+}
+.price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.detailStyle button{
+    margin-top: 10px;
+    border: none;
+    background-color: crimson;
+    border-radius: 30px;
+    padding: 5px 20px;
+    color: white;
+    margin-right: 10px;
+}
+.reviewStyle{
+    margin-bottom: 100px;
+}
+.detailStyle h1{
+    margin-bottom: 20px;
+}
+.plusMinus{
+    margin-left: 50px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+.increment{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.plus{
+    font-size: 16px;
+    font-weight: 600;
+}
+.minus{
+    font-size: 16px;
+    font-weight: 600;
+}

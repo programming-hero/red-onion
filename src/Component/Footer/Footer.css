@@ -1,0 +1,52 @@
+
+.contentStyle{
+    background-color: black;
+}
+.topFooterStyle{
+    display: flex;
+}
+.style{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.imgStyle img{
+    height: 40px;
+    width: 120px;
+    margin-left: 45px;
+}
+a{
+    text-decoration: none;
+}
+.textStyle a{
+    color: white;
+}
+.textStyle a:hover{
+    text-decoration: none;
+    color: crimson;
+    transition: .5s;
+
+}
+
+.copyright{
+    align-items: center;
+}
+.bottomFooter{
+    border-top: 1px solid dimgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bottomFooterLeft a{
+   color: gray;
+}
+.bottomFooterLeft a:hover{
+    cursor: default;
+    text-decoration: none;
+    color: gray;
+}
+.bottomFooterRight a{
+    color: gray;
+}
+.bottomFooterRight a:hover{
+    color: crimson;
+    text-decoration: overline;
+}

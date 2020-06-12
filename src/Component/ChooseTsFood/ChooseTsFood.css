@@ -1,0 +1,14 @@
+.checkoutBtn{
+    padding: 6px 30px;
+    border: 1px solid crimson;
+}
+.btn{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.checkoutBtn:hover{
+    background-color: crimson;
+    transition: .5s;
+    color: white;
+    cursor: progress;
+}

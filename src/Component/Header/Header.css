@@ -1,0 +1,30 @@
+nav{
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 50px
+    
+}
+ nav img{
+    height: 40px;
+    width: 120px;
+    line-height: 60px;
+    margin-left: 50px;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: orange;
+} 
+.signup{
+    background-color: crimson;
+    width: 110px;
+    border: none;
+    border-radius: 30px;
+    
+    
+}
+.signup span{
+    margin-left: 23px;
+    color: white;
+  
+}

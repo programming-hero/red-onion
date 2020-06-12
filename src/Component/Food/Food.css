@@ -1,0 +1,28 @@
+.single-item {
+    transition: .5s;
+    
+  }
+  .single-item:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    cursor: default;
+  }
+  .card {
+    border: none;
+    cursor: pointer;
+  }
+  .card-body {
+    padding-bottom: 0;
+  }
+  .add-now{
+    
+    padding: 6px 15px;
+    border: none;
+    border-radius: 30px;
+    color:#fff;
+    border: 2px solid #D24D57;
+  }
+  .add-now:hover {
+    background-color: crimson;
+
+  }
+  
