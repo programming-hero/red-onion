@@ -7,7 +7,7 @@ const CheckOut = (props) => {
         <div className="container">
             <div className="d-flex justify-content-center btn">
             <Link to="/Review"> <button className="checkoutBtn">check out your food  {props.cart.length}</button></Link>
-                </div>            
+                </div>           
         </div>
     );
 };

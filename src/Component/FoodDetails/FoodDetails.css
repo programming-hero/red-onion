@@ -21,15 +21,14 @@
     margin-bottom: 20px;
 }
 .plusMinus{
-    margin-left: 50px;
-    padding-top: 1px;
-    padding-bottom: 5px;
+    display: flex;
+    
 }
 .increment{
     font-size: 16px;
     font-weight: 600;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 22px;
+    margin-right: 22px;
 }
 .plus{
     font-size: 16px;
@@ -38,4 +37,8 @@
 .minus{
     font-size: 16px;
     font-weight: 600;
+}
+.incrementDecrement{
+    margin-bottom: 8px;
+    margin-left: 30px;
 }

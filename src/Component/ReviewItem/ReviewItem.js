@@ -2,13 +2,20 @@ import React from 'react';
 import './ReviewItem.css';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { getDatabaseCart } from '../../utilities/databaseManager';
+import { getDatabaseCart, removeFromDatabaseCart } from '../../utilities/databaseManager';
 import fakeData from '../../fakeData';
 import FoodDetails from '../FoodDetails/FoodDetails';
 
 const ReviewItem = () => {
 
     const [cart, setCart] = useState([]);
+
+    const handleRemoveFood = (foodKey) =>{
+        console.log('removed clicked', foodKey);
+        const newCart = cart.filter(food => food.key !== foodKey);
+        setCart(newCart);
+        removeFromDatabaseCart(foodKey);
+    }
 
     useEffect(() =>{
         //Cart
@@ -28,7 +35,8 @@ const ReviewItem = () => {
         <div className=" review">
             {/* <h1>Total Food Order: {cart.length}</h1> */}
             {
-                cart.map(food => <FoodDetails 
+                cart.map(food => <FoodDetails
+                    handleRemoveFood={handleRemoveFood} 
                     key = {food.key}
                     food={food}></FoodDetails>)
             }

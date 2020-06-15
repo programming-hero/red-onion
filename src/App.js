@@ -21,6 +21,8 @@ import BreakeFastSource from './Component/BreakeFastSource/BreakeFastSource';
 import NotFound from './Component/NotFound/NotFound';
 import CheckOut from './Component/CheckOut/CheckOut';
 import ReviewItem from './Component/ReviewItem/ReviewItem';
+import Login from './Component/Login/Login';
+import LoginComponent from './Component/LoginComponent/LoginComponent';
 
 
 
@@ -35,20 +37,23 @@ function App() {
        
         <Router>
          <Switch>
-           <Route path="/all" component={FoodProduct}>
+           <Route exact  path="/all" component={FoodProduct}>
              <FoodProduct></FoodProduct>
            </Route>
-           <Route path="/breakfast" component={BreakFast}>
+           <Route exact  path="/breakfast" component={BreakFast}>
              <BreakeFastSource></BreakeFastSource>
            </Route>
-           <Route path="/lunch" component={Lunch}>
+           <Route exact  path="/lunch" component={Lunch}>
              <LunchSource></LunchSource>
            </Route>
-           <Route path="/dinner" component={Dinner}>
+           <Route exact  path="/dinner" component={Dinner}>
              <DinnerSource></DinnerSource>
            </Route>
            <Route>
-             <ReviewItem path="/Review"></ReviewItem>
+             <ReviewItem exact  path="/Review" ></ReviewItem>
+           </Route>
+           <Route exact  path="/login">
+              <Login ></Login>
            </Route>
            <Route path="*">
               <NotFound></NotFound>
