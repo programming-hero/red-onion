@@ -31,9 +31,9 @@ function App() {
   return (
     
      <div>
-       <Header></Header>
+       {/* <Header></Header>
        <Banner></Banner>
-       <MenuBar></MenuBar>
+       <MenuBar></MenuBar> */}
        
         <Router>
          <Switch>
@@ -49,9 +49,9 @@ function App() {
            <Route exact  path="/dinner" component={Dinner}>
              <DinnerSource></DinnerSource>
            </Route>
-           <Route>
+           {/* <Route>
              <ReviewItem exact  path="/Review" ></ReviewItem>
-           </Route>
+           </Route> */}
            <Route exact  path="/login">
               <Login ></Login>
            </Route>
@@ -60,8 +60,8 @@ function App() {
            </Route>
          </Switch>
        </Router>
-       <ChooseTsFood></ChooseTsFood>
-       <Footer></Footer>
+       {/* <ChooseTsFood></ChooseTsFood>
+       <Footer></Footer> */}
      </div>
     
   );
